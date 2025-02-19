@@ -7,7 +7,7 @@
 <h2>Tentang Saya</h2>
 <p>Perpustakaan Erika Magdalena br Simarmata ini berisi dokumentasi dari berbagai tugas-tugas
 selama semester ini, perpustakaan ini dibuat sebagai arsip yang mungkin dikemudian hari
-dapat digunakan kembali</p>
+dapat digunakan kembali.</p>
 <i>homepage</i>
 </body>
 </html>
