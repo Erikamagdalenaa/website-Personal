@@ -11,3 +11,5 @@ dapat digunakan kembali.</p>
 <i>homepage</i>
 </body>
 </html>
+<h3>Kerja sama perpustakaan lain</h3>
+<a href="http://perpus.unsika.ac.id/">Perpustakaan Universitas Singaperbangsa Karawang</a>
