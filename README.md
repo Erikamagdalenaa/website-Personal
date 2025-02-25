@@ -15,6 +15,5 @@ dapat digunakan kembali.</p>
 <h4>Halaman lain</h4>
 <ul>
     <li><a href="Table Index.html">Biodata</a></li>
-</ul>
  <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
 </ul>
