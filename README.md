@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Hompage Perputakaan Erika Magdalena br Simarmata</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
