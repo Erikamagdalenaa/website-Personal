@@ -7,7 +7,7 @@
          <li><a href="README.md">Beranda</a></li>
          <li><a href="Tabel Index.html">Tentang</a></li>
 	 <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
-      </ul>
+</ul>
 </nav>
 </header>
 <head>
