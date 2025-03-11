@@ -1,5 +1,4 @@
 <html>
-    <html>
     <header>
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_North_Sumatra_University.svg/800px-Logo_of_North_Sumatra_University.svg.png" alt="Logo Website" width="50px" height="500px" />
    <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
@@ -24,7 +23,9 @@
     <!-- letakkan field di sini -->
 <fieldset>
 <legend><h1><b>Contact Us</b></h1></legend>
-
+<fieldset>
+<legend><h1><b>Contact Us</b></h1></legend>
+<table>
     <tr>
     <label> Nama: </label>
     <input type="text" name="nama-lengkap" /><br/></td>
@@ -39,15 +40,16 @@
 
 
     <tr>
-<form action="prosess-form.php" method="GET">
+<form action="contactus.html" method="get">
     <!-- letakkan field di sini -->
     <label> Isi Komentar: </label>
     <textarea name="komentar" rows="4" cols="50" ></textarea>    <br /><br />
     </tr>
 
-<td><input type="submit" name="submit" value="Submit" value="Send"/></td>
+<td><button onclick="alert('Ok Terma Kasih!')">Submit</button>
         <td></td>
         <td></td>
+</table>
 </fieldset>
 </form>
 <style>
@@ -71,9 +73,8 @@ header nav ul li a {
    color: white;
    text-decoration: none;
 }
-</syle>
-<body>
-
+</style>
+	
 <footer>
   <p>&copy; 2025 All rights reserved</p>
 </footer>
