@@ -4,9 +4,9 @@
    <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
 <nav>
 <ul>
-         <li><a href="index.html">Homepage</a></li>
-         <li><a href="biodata.html">About</a></li>
-	 <li><a href="contactus.html">Contact Us</a></li>
+         <li><a href="README.md">Beranda</a></li>
+         <li><a href="Tabel Index.html">Tentang</a></li>
+	 <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
       </ul>
   </div>
 </ul>
@@ -49,3 +49,14 @@ header nav ul li a {
 }
 </syle>
 <body>
+<footer>
+  <p>&copy; 2025 All rights reserved</p>
+</footer>
+<style>
+footer {
+   background-color: #74A12E;
+   color: white;
+   padding: 20px 10px;
+   text-align: center;
+}
+</syle>
