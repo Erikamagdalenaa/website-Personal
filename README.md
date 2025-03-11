@@ -4,7 +4,7 @@
    <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
 <nav>
 <ul>
-	 <li><a href="Index.html">Beranda</a></li>
+	 <li><a href="index.html">Beranda</a></li>
          <li><a href="biodata.html">Tentang</a></li>
 	 <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
 </ul>
