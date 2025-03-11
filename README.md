@@ -50,10 +50,15 @@ header nav ul li a {
   <p>&copy; 2025 All rights reserved</p>
 </footer>
 <style>
+<footer>
+  <p>&copy; 2025 All rights reserved</p>
+</footer>
+<style>
 footer {
-   background-color: #74A12E ;
+   background-color: 77C3EC;
    color: white;
    padding: 20px 10px;
    text-align: center;
 }
+</style>
 </style>
