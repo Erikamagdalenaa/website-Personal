@@ -8,8 +8,6 @@
          <li><a href="Tabel Index.html">Tentang</a></li>
 	 <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
       </ul>
-  </div>
-</ul>
 </nav>
 </header>
 <head>
