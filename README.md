@@ -54,7 +54,7 @@ header nav ul li a {
 </footer>
 <style>
 footer {
-   background-color: 77C3EC;
+   background-color: 77C3EC ;
    color: white;
    padding: 20px 10px;
    text-align: center;
