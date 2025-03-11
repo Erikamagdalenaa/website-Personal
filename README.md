@@ -5,6 +5,7 @@
 <nav>
 <ul>
 	 <li><a href="Index.html">Beranda</a></li>
+	<li><a href="Tabel Index.html">Tentang</a></li>
          <li><a href="Tabel Index.html">Tentang</a></li>
 	 <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
 </ul>
@@ -46,6 +47,7 @@ header nav ul li a {
    text-decoration: none;
 }
 </syle>
+	
 <footer>
   <p>&copy; 2025 All rights reserved</p>
 </footer>
