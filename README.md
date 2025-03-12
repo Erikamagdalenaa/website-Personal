@@ -43,12 +43,7 @@ header nav ul li a {
    color: white;
    text-decoration: none;
 }
-</syle>
-	
-<footer>
-  <p>&copy; 2025 All rights reserved</p>
-</footer>
-<style>
+</style>
 <footer>
   <p>&copy; 2025 All rights reserved</p>
 </footer>
