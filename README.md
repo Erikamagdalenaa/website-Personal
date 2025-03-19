@@ -18,6 +18,11 @@
 selama semester ini, perpustakaan ini dibuat sebagai arsip yang mungkin dikemudian hari
 dapat digunakan kembali.</p>
 </body>
+
+ <script>
+	alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
+</script>
+
 </html>
 <h3>Kerja sama perpustakaan lain</h3>
 <a href="http://perpus.unsika.ac.id/">Perpustakaan Universitas Singaperbangsa Karawang</a>
