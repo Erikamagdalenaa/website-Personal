@@ -21,7 +21,6 @@ dapat digunakan kembali.</p>
 <div style="position: relative; width: 100%; height: 100vh;">
     <img src="Perpustakaan.jpg" alt="Gambar di Tengah" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
 </div>
-
 </body>
 
  <script>
