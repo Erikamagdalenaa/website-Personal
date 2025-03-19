@@ -17,6 +17,9 @@
 <p>Perpustakaan Erika Magdalena br Simarmata ini berisi dokumentasi dari berbagai tugas-tugas
 selama semester ini, perpustakaan ini dibuat sebagai arsip yang mungkin dikemudian hari
 dapat digunakan kembali.</p>
+
+ <img src="Perpustakaan.jpg" alt="Deskripsi gambar" width="500" height="300">
+
 </body>
 
  <script>
