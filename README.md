@@ -19,6 +19,9 @@ selama semester ini, perpustakaan ini dibuat sebagai arsip yang mungkin dikemudi
 dapat digunakan kembali.</p>
 
  <img src="Perpustakaan.jpg" alt="Deskripsi gambar" width="500" height="300">
+<div style="text-align: center;">
+    <img src="Perpustaaan.jpg" alt="Gambar di Tengah">
+</div>
 
 </body>
 
