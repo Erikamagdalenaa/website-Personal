@@ -47,6 +47,10 @@ header nav ul li a {
 <footer>
   <p>&copy; 2025 All rights reserved</p>
 </footer>
+
+<!-- gif -->
+	<img src="BUKU.gif" alt="Animasi GIF" class="gif-pojok">
+ 
 <style>
 footer {
    background-color: #74A12E;
