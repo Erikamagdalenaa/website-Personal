@@ -19,7 +19,7 @@
 </nav>
 </header>
 <head>
-<title>Hompage Perputakaan Erika Magdalena br Simarmata</title>
+<title>Hompage Perpustakaan Erika Magdalena br Simarmata</title>
 </head>
 <body>
 <p>Perpustakaan Erika Magdalena br Simarmata ini berisi dokumentasi dari berbagai tugas-tugas
