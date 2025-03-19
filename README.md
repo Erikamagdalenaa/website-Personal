@@ -58,4 +58,10 @@ footer {
    padding: 20px 10px;
    text-align: center;
 }
+gif-pojok {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   z-index: 1000;
+}
 </style>
