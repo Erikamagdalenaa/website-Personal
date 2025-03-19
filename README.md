@@ -21,9 +21,6 @@ dapat digunakan kembali.</p>
 </html>
 <h3>Kerja sama perpustakaan lain</h3>
 <a href="http://perpus.unsika.ac.id/">Perpustakaan Universitas Singaperbangsa Karawang</a>
-
-<!-- gif -->
-	<img src="BUKU.gif" alt="Animasi GIF" class="gif-pojok">
  
 <style>
 header {
@@ -57,11 +54,5 @@ footer {
    color: white;
    padding: 20px 10px;
    text-align: center;
-}
-gif-pojok {
-   position: fixed;
-   bottom: 0;
-   left: 0;
-   z-index: 1000;
 }
 </style>
