@@ -38,27 +38,6 @@ dapat digunakan kembali.</p>
 <h3>Kerja sama perpustakaan lain</h3>
 <a href="http://perpus.unsika.ac.id/">Perpustakaan Universitas Singaperbangsa Karawang</a>
 
-<style>
-header {
-   background-color: #74A12E;
-   color: white;
-   padding: 20px 10px;
-   text-align: center;
-}
-
-header img {
-   height: 50px;
-}
-
-header nav ul li {
-   display: inline;
-   margin: 0 10px;
-}
-
-header nav ul li a {
-   color: white;
-   text-decoration: none;
-}
 <!-- EVENT TERKINI -->
 <div class="rekomendasi fade-in">
     <h3>Event Terkini</h3>
@@ -80,6 +59,27 @@ header nav ul li a {
         </div>
     </div>
 </div>
+<style>
+header {
+   background-color: #74A12E;
+   color: white;
+   padding: 20px 10px;
+   text-align: center;
+}
+
+header img {
+   height: 50px;
+}
+
+header nav ul li {
+   display: inline;
+   margin: 0 10px;
+}
+
+header nav ul li a {
+   color: white;
+   text-decoration: none;
+}
 </style>
 <footer>
   <p>&copy; 2025 All rights reserved</p>
