@@ -43,7 +43,7 @@ dapat digunakan kembali.</p>
     <h3>Event Terkini</h3>
     <div class="buku-container">
         <div class="buku">
-            <img src="(https://i.imgur.com/UmgrZBX.jpeg)" alt="Event 1">
+            <img src="https://i.imgur.com/UmgrZBX.jpeg" alt="Event 1">
             <p>Event: Pengolahan Bahan Perpustakaan Berbasis Panduan Pengatalogan Praktis</p>
             <a href="(https://www.instagram.com/p/DIsqJ7Aya-T/?igsh=MTE1bXhkZDRsYjlkZg==)" target="_blank">Lihat di Instagram</a>
         </div>
