@@ -15,6 +15,7 @@
 	 <li><a href="index.html">Beranda</a></li>
          <li><a href="biodata.html">Tentang</a></li>
 	 <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
+	 <li><a href="tabel.php">Tabel Perkalian</a></li>
 </ul>
 </nav>
 </header>
