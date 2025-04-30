@@ -37,6 +37,16 @@ dapat digunakan kembali.</p>
 </html>
 <h3>Kerja sama perpustakaan lain</h3>
 <a href="http://perpus.unsika.ac.id/">Perpustakaan Universitas Singaperbangsa Karawang</a>
+
+<!-- event -->
+	<div class="carousel-container">
+		<h3 style="text-align: center; padding:20px 0; color: DB1415; margin-bottom: 20px; font-size: 24px;">
+			<i class="fas fa-bullhorn me-2"></i> Event Perpustakaan Universitas Singaperbangsa Karawang
+		</h3>
+  		<div class="carousel-track" id="eventCarousel">
+    			<!-- Cards akan di-generate lewat JS -->
+  		</div>
+	</div>
  
 <style>
 header {
@@ -72,3 +82,38 @@ footer {
    text-align: center;
 }
 </style>
+
+<script>
+	const eventData = [
+  		{
+    			"title": "Perpustakaan Keliling",
+    			"date": "3 Februari 2025",
+    			"desc": "Perpustakaan Universitas Singaperbangsa Karawang, kembali mengadakan perpustakaan keliling mengusung tema:Buku Dibuka, Dibaca Jadi Ilmu."
+  		},
+  		{
+    			"title": "Pengadaan Buku",
+    			"date": "17 februari 2025",
+    			"desc": "Untuk meningkatkan kualitas perpustakaan, menambah referensi pengguna dan menambah koleksi, maka Perpustakaan Universitas Singaperbangsa Karawang melakukan kegiatan pengadaan buku."
+  		}
+    const container = document.getElementById("eventCarousel");
+
+	// Inject cards
+	eventData.forEach((event) => {
+  		const card = document.createElement("div");
+  		card.className = "event-card";
+  		card.innerHTML = `
+    			<div class="event-title">📅 ${event.title}</div>
+    			<div class="event-date">${event.date}</div>
+    			<div class="event-desc">${event.desc}</div>
+    			<a href="#" style="color:#007bff; font-weight:bold;">Baca Selengkapnya</a>
+  `		;
+  		container.appendChild(card);
+	});
+
+	// Carousel auto slide
+	let currentIndex = 0;
+	setInterval(() => {
+  		currentIndex = (currentIndex + 1) % eventData.length;
+  		container.style.transform = translateX(-${currentIndex * 100}%);
+	}, 4000); // 5 detik
+	</script>
