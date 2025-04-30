@@ -105,7 +105,6 @@ footer {
     			<div class="event-title">📅 ${event.title}</div>
     			<div class="event-date">${event.date}</div>
     			<div class="event-desc">${event.desc}</div>
-    			<a href="#" style="color:#007bff; font-weight:bold;">Baca Selengkapnya</a>
   `		;
   		container.appendChild(card);
 	});
