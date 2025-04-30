@@ -38,16 +38,6 @@ dapat digunakan kembali.</p>
 <h3>Kerja sama perpustakaan lain</h3>
 <a href="http://perpus.unsika.ac.id/">Perpustakaan Universitas Singaperbangsa Karawang</a>
 
-<!-- event -->
-	<div class="carousel-container">
-		<h3 style="text-align: center; padding:20px 0; color: DB1415; margin-bottom: 20px; font-size: 24px;">
-			<i class="fas fa-bullhorn me-2"></i> Event Perpustakaan Universitas Singaperbangsa Karawang
-		</h3>
-  		<div class="carousel-track" id="eventCarousel">
-    			<!-- Cards akan di-generate lewat JS -->
-  		</div>
-	</div>
- 
 <style>
 header {
    background-color: #74A12E;
@@ -69,6 +59,27 @@ header nav ul li a {
    color: white;
    text-decoration: none;
 }
+<!-- EVENT TERKINI -->
+<div class="rekomendasi fade-in">
+    <h3>Event Terkini</h3>
+    <div class="buku-container">
+        <div class="buku">
+            <img src="(https://i.imgur.com/UmgrZBX.jpeg)" alt="Event 1">
+            <p>Event: Pengolahan Bahan Perpustakaan Berbasis Panduan Pengatalogan Praktis</p>
+            <a href="(https://www.instagram.com/p/DIsqJ7Aya-T/?igsh=MTE1bXhkZDRsYjlkZg==)" target="_blank">Lihat di Instagram</a>
+        </div>
+        <div class="buku">
+            <img src="https://i.imgur.com/QQTyMak.jpeg" alt="Event 2">
+            <p>Event: Webinar Literasi Inormasi</p>
+            <a href="https://www.instagram.com/p/DIlZiIChWx1/?igsh=YzVxazFvZmV2aDEw" target="_blank">Lihat di Instagram</a>
+        </div>
+        <div class="buku">
+            <img src="https://i.imgur.com/zCFSSAb.jpeg" alt="Event 4">
+            <p>Event: Transformasi Perpustakaan Tradisional ke Digital</p>
+            <a href="https://www.instagram.com/p/C6LPZGxLXoN/?igsh=MTZobTEwMDV4Mjg5cQ==" target="_blank">Lihat di Instagram</a>
+        </div>
+    </div>
+</div>
 </style>
 <footer>
   <p>&copy; 2025 All rights reserved</p>
@@ -82,43 +93,3 @@ footer {
    text-align: center;
 }
 </style>
-
-<script>
-	const eventData = [
-  		{
-    			"title": "Perpustakaan Keliling",
-    			"date": "3 Februari 2025",
-    			"desc": "Perpustakaan Universitas Singaperbangsa Karawang, kembali mengadakan perpustakaan keliling mengusung tema:Buku Dibuka, Dibaca Jadi Ilmu."
-  		},
-  		{
-    			"title": "Pengadaan Buku",
-    			"date": "17 februari 2025",
-    			"desc": "Untuk meningkatkan kualitas perpustakaan, menambah referensi pengguna dan menambah koleksi, maka Perpustakaan Universitas Singaperbangsa Karawang melakukan kegiatan pengadaan buku."
-  		}
-		{
-    			"title": "Webinar Pelatihan Turnitin",
-    			"date": "21 februari 2025",
-    			"desc": "Perrpustakaan Universitas Singaperbangsa Karawang menggelar kegiatan Pelatihan Turnitin untuk para mahasiswa."
-  		}
-    const container = document.getElementById("eventCarousel");
-
-	// Inject cards
-	eventData.forEach((event) => {
-  		const card = document.createElement("div");
-  		card.className = "event-card";
-  		card.innerHTML = `
-    			<div class="event-title">📅 ${event.title}</div>
-    			<div class="event-date">${event.date}</div>
-    			<div class="event-desc">${event.desc}</div>
-      			<a href="#" style="color:#007bff; font-weight:bold;">Baca Selengkapnya</a>
-  `		;
-  		container.appendChild(card);
-	});
-
-	// Carousel auto slide
-	let currentIndex = 0;
-	setInterval(() => {
-  		currentIndex = (currentIndex + 1) % eventData.length;
-  		container.style.transform = translateX(-${currentIndex * 100}%);
-	}, 4000); // 5 detik
-	</script>
