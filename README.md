@@ -95,6 +95,11 @@ footer {
     			"date": "17 februari 2025",
     			"desc": "Untuk meningkatkan kualitas perpustakaan, menambah referensi pengguna dan menambah koleksi, maka Perpustakaan Universitas Singaperbangsa Karawang melakukan kegiatan pengadaan buku."
   		}
+		{
+    			"title": "Webinar Pelatihan Turnitin",
+    			"date": "21 februari 2025",
+    			"desc": "Perrpustakaan Universitas Singaperbangsa Karawang menggelar kegiatan Pelatihan Turnitin untuk para mahasiswa."
+  		}
     const container = document.getElementById("eventCarousel");
 
 	// Inject cards
@@ -105,6 +110,7 @@ footer {
     			<div class="event-title">📅 ${event.title}</div>
     			<div class="event-date">${event.date}</div>
     			<div class="event-desc">${event.desc}</div>
+      			<a href="#" style="color:#007bff; font-weight:bold;">Baca Selengkapnya</a>
   `		;
   		container.appendChild(card);
 	});
