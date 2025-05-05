@@ -1,106 +1,154 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <title>Perpustakaan Erika Magdalena br Simarmata</title>
-    <style>
-        header {
-            background-color: #74A12E;
-            color: white;
-            padding: 20px 10px;
-            text-align: center;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perpustakaan Erika Magdalena br Simarmata</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
 
-        header img {
-            height: 100px;
-        }
+    header {
+      background-color: #74A12E;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
 
-        header nav ul {
-            list-style-type: none;
-            padding: 0;
-        }
+    header img {
+      height: 80px;
+      margin-bottom: 10px;
+    }
 
-        header nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
+    header h1 {
+      margin: 10px 0;
+    }
 
-        header nav ul li a {
-            color: white;
-            text-decoration: none;
-        }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin-top: 10px;
+    }
 
-        table, th, td {
-            border: 1px solid black;
-            border-collapse: collapse;
-            padding: 8px;
-        }
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
 
-        table {
-            margin: 20px auto;
-            width: 80%;
-        }
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
 
-        footer {
-            background-color: #74A12E;
-            color: white;
-            padding: 20px 10px;
-            text-align: center;
-        }
-    </style>
+    nav ul li a:hover {
+      color: #d4ffd3;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 32px;
+    }
+
+    table {
+      margin: 30px auto;
+      width: 80%;
+      background-color: white;
+      border-collapse: collapse;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #74A12E;
+      color: white;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #eef7e5;
+    }
+
+    footer {
+      background-color: #74A12E;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_North_Sumatra_University.svg/800px-Logo_of_North_Sumatra_University.svg.png" alt="Logo Website" />
-    <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Beranda</a></li>
-            <li><a href="biodata.html">Tentang</a></li>
-            <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
-        </ul>
-    </nav>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_North_Sumatra_University.svg/800px-Logo_of_North_Sumatra_University.svg.png" alt="Logo Website" />
+  <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Beranda</a></li>
+      <li><a href="biodata.html">Tentang</a></li>
+      <li><a href="Hubungi Saya.html">Hubungi Saya</a></li>
+    </ul>
+  </nav>
 </header>
 
-<h1 style="text-align:center;">Biodata</h1>
+<h1>Biodata</h1>
 
 <table>
-    <tr>
-        <th>Informasi</th>
-        <th>Detail</th>
-    </tr>
-    <tr>
-        <td>Nama</td>
-        <td>Erika Magdalena br Simarmata</td>
-    </tr>
-    <tr>
-        <td>NIM</td>
-        <td>220709028</td>
-    </tr>
-    <tr>
-        <td>Program Studi</td>
-        <td>Perpustakaan dan Sains Informasi</td>
-    </tr>
-    <tr>
-        <td>Fakultas</td>
-        <td>Ilmu Budaya</td>
-    </tr>
-    <tr>
-        <td>Universitas</td>
-        <td>Sumatera Utara</td>
-    </tr>
-    <tr>
-        <td>Domisili</td>
-        <td>Medan</td>
-    </tr>
-    <tr>
-        <td>Email</td>
-        <td>erikamgdln09@gmail.com</td>
+  <tr>
+    <th>Informasi</th>
+    <th>Detail</th>
+  </tr>
+  <tr>
+    <td>Nama</td>
+    <td>Erika Magdalena br Simarmata</td>
+  </tr>
+  <tr>
+    <td>NIM</td>
+    <td>220709028</td>
+  </tr>
+  <tr>
+    <td>Program Studi</td>
+    <td>Perpustakaan dan Sains Informasi</td>
+  </tr>
+  <tr>
+    <td>Fakultas</td>
+    <td>Ilmu Budaya</td>
+  </tr>
+  <tr>
+    <td>Universitas</td>
+    <td>Sumatera Utara</td>
+  </tr>
+  <tr>
+    <td>Domisili</td>
+    <td>Medan</td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td>erikamgdln09@gmail.com</td>
+  </tr>
 </table>
 
 <footer>
-    <p>&copy; 2025 All rights reserved</p>
+  <p>&copy; 2025 All rights reserved</p>
 </footer>
 
 </body>
