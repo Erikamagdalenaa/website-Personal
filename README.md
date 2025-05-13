@@ -14,7 +14,7 @@
 
     header {
       background-color: #ACE1AF ;
-      color: white;
+      color: black;
       padding: 20px;
       text-align: center;
     }
@@ -36,7 +36,7 @@
     }
 
     nav ul li a {
-      color: white;
+      color: black;
       text-decoration: none;
       font-weight: bold;
     }
@@ -71,6 +71,7 @@
       width: 300px;
       box-shadow: 0 4px 6px rgba(0,0,0,0.1);
       transition: transform 0.3s;
+      color: black;
     }
 
     .buku:hover {
@@ -84,7 +85,7 @@
 
     footer {
       background-color: #ACE1AF ;
-      color: white;
+      color: black;
       text-align: center;
       padding: 15px;
       margin-top: 40px;
@@ -92,6 +93,10 @@
 
     a {
       text-decoration: none;
+      color: black;
+    }
+    a:hover {
+      text-decoration: underline;
     }
   </style>
 </head>
