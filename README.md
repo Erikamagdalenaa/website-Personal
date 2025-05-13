@@ -12,7 +12,7 @@
     }
 
     header {
-      background-color: #74A12E;
+      background-color: #ACE1AF ;
       color: white;
       padding: 20px;
       text-align: center;
@@ -82,7 +82,7 @@
     }
 
     footer {
-      background-color: #74A12E;
+      background-color: #ACE1AF ;
       color: white;
       text-align: center;
       padding: 15px;
@@ -150,7 +150,7 @@
   </main>
 
   <footer>
-    <p>&copy; 2025 All rights reserved</p>
+    <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
   </footer>
 
   <script>
