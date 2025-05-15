@@ -117,7 +117,7 @@
           <a class="nav-link" href="Hubungi Saya.html"><i class="bi bi-envelope-fill"></i> Hubungi Saya</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="tabel.php"><i class="bi bi-table"></i> Tabel Perkalian</a>
+          <a class="nav-link" href="tabel.html"><i class="bi bi-table"></i> Tabel Perkalian</a>
         </li>
       </ul>
     </div>
