@@ -1,58 +1,46 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Perpustakaan Erika Magdalena br Simarmata</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
-
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: #f4f6f8;
+      background-color: #f8f9fa;
       color: black;
     }
 
     header {
-      background: linear-gradient(to right, #ACE1AF, #C1E1C1);
+      background-color: #ACE1AF;
       color: black;
-      padding: 30px 20px 20px;
+      padding: 20px;
       text-align: center;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
     header img {
-      height: 70px;
+      height: 60px;
       margin-bottom: 10px;
     }
 
-    h1 {
-      font-family: 'Georgia', serif;
-      font-size: 2.5rem;
+    .navbar {
+      background: linear-gradient(90deg, #ACE1AF, #9CE2D4);
+    }
+
+    .navbar-nav .nav-link {
       font-weight: bold;
+      font-size: 1.1rem;
+      color: #212529 !important;
+      transition: all 0.3s ease;
     }
 
-    nav.navbar {
-      background: linear-gradient(90deg, #6FCF97 0%, #ACE1AF 100%);
-      font-weight: bold;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-
-    .navbar-brand {
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-
-    .nav-link {
-      color: white !important;
-      margin: 0 10px;
-      transition: color 0.3s ease-in-out;
-    }
-
-    .nav-link:hover {
-      color: #333 !important;
-      text-decoration: underline;
+    .navbar-nav .nav-link:hover {
+      background-color: rgba(255, 255, 255, 0.4);
+      border-radius: 10px;
+      padding: 8px 12px;
     }
 
     .hero-img {
@@ -65,48 +53,44 @@
     .hero-img img {
       max-width: 100%;
       max-height: 100%;
-      border-radius: 20px;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-      transition: transform 0.3s ease-in-out;
-    }
-
-    .hero-img img:hover {
-      transform: scale(1.02);
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
 
     .buku-container {
       display: flex;
       flex-wrap: wrap;
-      gap: 25px;
+      gap: 20px;
       justify-content: center;
-      margin-top: 30px;
+      margin-top: 20px;
     }
 
     .buku {
       background-color: white;
-      border-radius: 12px;
-      padding: 20px;
-      width: 320px;
-      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
-      transition: all 0.3s;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 15px;
+      width: 300px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+      color: black;
     }
 
     .buku:hover {
-      transform: translateY(-5px) scale(1.03);
+      transform: scale(1.03);
     }
 
     .buku img {
       width: 100%;
-      border-radius: 10px;
+      border-radius: 8px;
     }
 
     footer {
       background-color: #ACE1AF;
       color: black;
       text-align: center;
-      padding: 20px;
+      padding: 15px;
       margin-top: 40px;
-      font-weight: bold;
     }
 
     a {
@@ -121,29 +105,22 @@
     <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
   </header>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-      <a class="navbar-brand text-white" href="#"><i class="fas fa-book-reader"></i> Menu Navigasi</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="biodata.html"><i class="fas fa-user"></i> Tentang</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Hubungi Saya.html"><i class="fas fa-envelope"></i> Hubungi Saya</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tabel.php"><i class="fas fa-table"></i> Tabel Perkalian</a>
-          </li>
-        </ul>
-      </div>
+  <nav class="navbar navbar-expand-lg shadow-sm sticky-top">
+    <div class="container justify-content-center">
+      <ul class="navbar-nav gap-4">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><i class="bi bi-house-door-fill"></i> Beranda</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="biodata.html"><i class="bi bi-person-fill"></i> Tentang</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Hubungi Saya.html"><i class="bi bi-envelope-fill"></i> Hubungi Saya</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tabel.php"><i class="bi bi-table"></i> Tabel Perkalian</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
@@ -156,7 +133,7 @@
       <img src="Perpustakaan.jpg" alt="Gambar Perpustakaan">
     </div>
 
-    <hr class="my-5">
+    <hr class="my-4">
 
     <section>
       <h3 class="text-center">Kerja Sama Perpustakaan Lain</h3>
