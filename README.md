@@ -1,4 +1,3 @@
-
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -97,37 +96,9 @@
       text-decoration: none;
     }
   </style>
-  <style>
-    #cookieBanner {
-      display: none;
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background-color: #fff3cd;
-      color: #856404;
-      padding: 15px;
-      text-align: center;
-      border-top: 1px solid #ffeeba;
-      z-index: 1000;
-    }
-
-    #cookieBanner button {
-      margin-left: 15px;
-      padding: 6px 12px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    #cookieBanner button:hover {
-      background-color: #45a049;
-    }
-  </style>
 </head>
 <body>
+
   <header>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_North_Sumatra_University.svg/800px-Logo_of_North_Sumatra_University.svg.png" alt="Logo Website" />
     <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
@@ -146,7 +117,7 @@
           <a class="nav-link" href="Hubungi Saya.html"><i class="bi bi-envelope-fill"></i> Hubungi Saya</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="tabel.html"><i class="bi bi-table"></i> Tabel Perkalian</a>
+          <a class="nav-link" href="tabel.php"><i class="bi bi-table"></i> Tabel Perkalian</a>
         </li>
       </ul>
     </div>
@@ -191,38 +162,96 @@
       </div>
     </section>
   </main>
-<div id="cookieBanner">
-    Situs ini menggunakan cookies untuk meningkatkan pengalaman pengguna.
-    <button onclick="acceptCookies()">Saya Setuju</button>
-  </div>
-   <script>
-    alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
 
-    function setCookie(name, value, days) {
-      const expires = new Date(Date.now() + days * 864e5).toUTCString();
-      document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
-    }
-
-    function getCookie(name) {
-      return document.cookie.split('; ').reduce((r, v) => {
-        const parts = v.split('=');
-        return parts[0] === name ? decodeURIComponent(parts[1]) : r
-      }, '');
-    }
-
-    function acceptCookies() {
-      setCookie('cookieConsent', 'accepted', 30);
-      document.getElementById('cookieBanner').style.display = 'none';
-    }
-
-    window.onload = function () {
-      if (!getCookie('cookieConsent')) {
-        document.getElementById('cookieBanner').style.display = 'block';
-      }
-    };
-  </script>
-</body>
-</html>
   <footer>
     <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
   </footer>
+
+  <script>
+    alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
+  </script>
+<!-- Popup Cookie -->
+<div id="cookiePopup" style="
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ACE1AF;
+  border: 1px solid #b0c4de;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+">
+  <p style="margin: 0 0 15px;">
+    <strong>Sebelum mulai, atur cookies dulu ya 🍪</strong><br>
+    Cookies wajib agar situs ini berjalan dengan baik. 
+    <br>
+    <a href="#" style="color: #007bff; text-decoration: underline;">Kebijakan kuki kami</a>
+  </p>
+  <div style="text-align: right;">
+    <button onclick="setCookieConsent(true)" style="
+      background-color: #ACE1AF;
+      color: white;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      cursor: pointer;
+    ">Terima kuki</button>
+    <button onclick="setCookieConsent(false)" style="
+      background-color: #e0e0e0;
+      color: #333;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    ">Kelola cookies</button>
+  </div>
+</div>
+
+<script>
+  // Fungsi untuk set cookie
+  function setCookie(nama, nilai, hari) {
+    const d = new Date();
+    d.setTime(d.getTime() + (hari * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + d.toUTCString();
+    document.cookie = nama + "=" + nilai + ";" + expires + ";path=/";
+  }
+
+  function getCookie(nama) {
+    const cname = nama + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const ca = decodedCookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i].trim();
+      if (c.indexOf(cname) === 0) {
+        return c.substring(cname.length, c.length);
+      }
+    }
+    return "";
+  }
+
+  // Fungsi muncul/hilang popup
+  function checkCookieConsent() {
+    const consent = getCookie("cookie_consent");
+    if (!consent) {
+      document.getElementById("cookiePopup").style.display = "block";
+    }
+  }
+
+  function setCookieConsent(terima) {
+    setCookie("cookie_consent", terima ? "yes" : "no", 365);
+    document.getElementById("cookiePopup").style.display = "none";
+    alert(terima ? "Terima kasih telah menyetujui kuki kami!" : "Anda memilih untuk mengelola kuki.");
+  }
+
+  // Tampilkan popup saat halaman dimuat
+  window.onload = checkCookieConsent;
+</script>
+</body>
+</html>
