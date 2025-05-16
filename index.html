@@ -266,3 +266,118 @@
         </div>
     </div>
 </section>
+
+        <section class="mt-5">
+      <h3 class="text-center mb-4">Event Terkini</h3>
+      <div class="buku-container">
+        <div class="buku">
+          <img src="https://i.imgur.com/UmgrZBX.jpeg" alt="Event 1">
+          <p class="mt-2">Event: Pengolahan Bahan Perpustakaan Berbasis Panduan Pengatalogan Praktis</p>
+          <a href="https://www.instagram.com/p/DIsqJ7Aya-T/?igsh=MTE1bXhkZDRsYjlkZg==" target="_blank">Lihat di Instagram</a>
+        </div>
+        <div class="buku">
+          <img src="https://i.imgur.com/QQTyMak.jpeg" alt="Event 2">
+          <p class="mt-2">Event: Webinar Literasi Informasi</p>
+          <a href="https://www.instagram.com/p/DIlZiIChWx1/?igsh=YzVxazFvZmV2aDEw" target="_blank">Lihat di Instagram</a>
+        </div>
+        <div class="buku">
+          <img src="https://i.imgur.com/zCFSSAb.jpeg" alt="Event 3">
+          <p class="mt-2">Event: Transformasi Perpustakaan Tradisional ke Digital</p>
+          <a href="https://www.instagram.com/p/C6LPZGxLXoN/?igsh=MTZobTEwMDV4Mjg5cQ==" target="_blank">Lihat di Instagram</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
+  </footer>
+
+  <script>
+    alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
+  </script>
+<!-- Popup Cookie -->
+<div id="cookiePopup" style="
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ACE1AF;
+  border: 1px solid #b0c4de;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+">
+  <p style="margin: 0 0 15px;">
+    <strong>Kami Menggunakan Cookies 🍪</strong><br>
+    Website ini Menggunakan Cookies agar situs ini berjalan dengan baik. 
+    <br>
+    <a href="#" style="color: #007bff; text-decoration: underline;">Kebijakan Cookies kami</a>
+  </p>
+  <div style="text-align: right;">
+    <button onclick="setCookieConsent(true)" style="
+      background-color: #ACE1AF;
+      color: black;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      margin-right: 10px;
+      cursor: pointer;
+    ">Terima Cookies</button>
+    <button onclick="setCookieConsent(false)" style="
+      background-color: #e0e0e0;
+      color: #333;
+      padding: 8px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    ">Kelola Cookies</button>
+  </div>
+</div>
+
+<script>
+  // Fungsi untuk set cookie
+  function setCookie(nama, nilai, hari) {
+    const d = new Date();
+    d.setTime(d.getTime() + (hari * 24 * 60 * 60 * 1000));
+    const expires = "expires=" + d.toUTCString();
+    document.cookie = nama + "=" + nilai + ";" + expires + ";path=/";
+  }
+
+  function getCookie(nama) {
+    const cname = nama + "=";
+    const decodedCookie = decodeURIComponent(document.cookie);
+    const ca = decodedCookie.split(';');
+    for (let i = 0; i < ca.length; i++) {
+      let c = ca[i].trim();
+      if (c.indexOf(cname) === 0) {
+        return c.substring(cname.length, c.length);
+      }
+    }
+    return "";
+  }
+
+  // Fungsi muncul/hilang popup
+  function checkCookieConsent() {
+    const consent = getCookie("cookie_consent");
+    if (!consent) {
+      document.getElementById("cookiePopup").style.display = "block";
+    }
+  }
+
+  function setCookieConsent(terima) {
+    setCookie("cookie_consent", terima ? "yes" : "no", 365);
+    document.getElementById("cookiePopup").style.display = "none";
+    alert(terima ? "Terima kasih telah menyetujui kuki kami!" : "Anda memilih untuk mengelola kuki.");
+  }
+
+  // Tampilkan popup saat halaman dimuat
+  window.onload = checkCookieConsent;
+</script>
+</body>
+</html>
