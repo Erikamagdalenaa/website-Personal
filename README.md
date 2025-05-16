@@ -243,7 +243,7 @@
                 <h3 class="book-title">Laskar Pelangi</h3>
                 <p class="book-author">Oleh: Andrea Hirata</p>
                 <p class="book-desc">menceritakan kisah anak-anak dari keluarga miskin di Pulau Belitung yang bersekolah di SD Muhammadiyah, sebuah sekolah yang hampir ditutup karena kekurangan murid</p>
-                <a href="https://kalteng.kemenag.go.id/file/majalah/1613240554837.pdf" target=_blank"<a class="book-btn">Baca Detail</a>
+                <a href="https://kalteng.kemenag.go.id/file/majalah/1613240554837.pdf" target=_blank" class="book-btn">Baca Detail</a>
             </div>
         </div>
         <div class="book-card">
@@ -252,7 +252,7 @@
                 <h3 class="book-title">Bintang</h3>
                 <p class="book-author">Oleh: Tere Liye</p>
                 <p class="book-desc">Menceritakan petualangan Raib, Seli, dan Ali yang berpetualang ke dunia paralel Klan Bintang untuk menyelamatkan pasak bumi dari ancaman Sekretaris Dewan Kota Klan Bintang.</p>
-                <a href="https://digilib.rsrivaiabdullah.id/assets/file/bintang_tere_liye.pdf" target=_blank"<a class="book-btn">Baca Detail</a>
+                <a href="https://digilib.rsrivaiabdullah.id/assets/file/bintang_tere_liye.pdf" target=_blank" class="book-btn">Baca Detail</a>
             </div>
         </div>
         <div class="book-card">
@@ -261,7 +261,7 @@
                 <h3 class="book-title">Matahari</h3>
                 <p class="book-author">Oleh: Tere Liye</p>
                 <p class="book-desc">Menceritakan tentang petualangan Raib, Seli, dan Ali setelah kematian Ily, sahabat mereka, di Klan Matahari. Mereka bertiga kemudian menjelajahi Klan Bintang, menghadapi berbagai rintangan dan tantangan, termasuk serangan makhluk aneh dan penangkapan oleh pasukan Klan Bintang.</p>
-                <a href="https://smksetiabudhirangkasbitung.sch.id/wp-content/uploads/2019/11/14.-Matahari.pdf" target=_blank"<a class="book-btn">Baca Detail</a>
+                <a href="https://smpn32.semarangkota.go.id/e-perpus/index.php?p=fstream&fid=7&bid=772/" target=_blank" class="book-btn">Baca Detail</a>
             </div>
         </div>
     </div>
