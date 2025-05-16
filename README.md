@@ -229,10 +229,3 @@
   <footer>
     <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
   </footer>
-
-  <script>
-    alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
-  </script>
-
-</body>
-</html>
