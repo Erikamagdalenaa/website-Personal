@@ -154,16 +154,16 @@
             </div>
         </div>
         <div class="book-card">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gramedia.com%2Fproducts%2Fbintang-1&psig=AOvVaw2Arf4x9c62cUryJNW7IDhz&ust=1747465889349000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjRi_S3p40DFQAAAAAdAAAAABAM.jpg" alt="Buku 2" class="book-img">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gramedia.com%2Fproducts%2Fbintang-1&psig=AOvVaw2Arf4x9c62cUryJNW7IDhz&ust=1747465889349000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjRi_S3p40DFQAAAAAdAAAAABAM" alt="Buku 2" class="book-img">
             <div class="book-info">
-                <h3 class="book-title">Bintangi</h3>
+                <h3 class="book-title">Bintang</h3>
                 <p class="book-author">Oleh: Tere Liye</p>
                 <p class="book-desc">Menceritakan petualangan Raib, Seli, dan Ali yang berpetualang ke dunia paralel Klan Bintang untuk menyelamatkan pasak bumi dari ancaman Sekretaris Dewan Kota Klan Bintang.</p>
                 <a href="https://digilib.rsrivaiabdullah.id/assets/file/bintang_tere_liye.pdf" target=_blank" class="book-btn">Baca Detail</a>
             </div>
         </div>
         <div class="book-card">
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gramedia.com%2Fproducts%2Fmatahari-1&psig=AOvVaw16BPvFpzvhlDZBH6kQ75gW&ust=1747466170136000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCRgvW4p40DFQAAAAAdAAAAABAE.jpg" alt="Buku 3" class="book-img">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gramedia.com%2Fproducts%2Fmatahari-1&psig=AOvVaw16BPvFpzvhlDZBH6kQ75gW&ust=1747466170136000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCRgvW4p40DFQAAAAAdAAAAABAE" alt="Buku 3" class="book-img">
             <div class="book-info">
                 <h3 class="book-title">Matahari</h3>
                 <p class="book-author">Oleh: Tere Liye</p>
