@@ -162,6 +162,137 @@
       </div>
     </section>
   </main>
+ 
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perpustakaan Erika Magdalena br Simarmata</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #a8e6a1;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    header h1 {
+      margin: 10px 0;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    main {
+      text-align: center;
+      padding: 30px;
+    }
+
+    img {
+      width: 400px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    /* Cookie Banner */
+    #cookieBanner {
+      display: none;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #f0f0f0;
+      padding: 15px;
+      text-align: center;
+      border-top: 1px solid #ccc;
+      z-index: 1000;
+    }
+
+    #cookieBanner button {
+      margin-left: 10px;
+      padding: 5px 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    #cookieBanner button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://upload.wikimedia.org/wikipedia/id/5/59/Lambang_Unimed.png" alt="Logo" width="60" />
+    <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
+    <hr />
+    <nav>
+      <a href="#">Beranda</a>
+      <a href="#">Tentang</a>
+      <a href="#">Hubungi Saya</a>
+      <a href="#">Tabel Perkalian</a>
+    </nav>
+  </header>
+
+  <main>
+    <p>
+      Perpustakaan ini berisikan dokumentasi dari berbagai tugas selama semester ini. 
+      Juga berfungsi sebagai arsip yang dapat digunakan kembali di masa depan.
+    </p>
+    <img src="https://img.freepik.com/free-photo/interior-modern-school-library_23-2148898293.jpg" alt="Perpustakaan" />
+  </main>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookieBanner">
+    Website ini menggunakan cookies untuk meningkatkan pengalaman Anda.
+    <button onclick="acceptCookies()">Saya Setuju</button>
+  </div>
+
+  <script>
+    function setCookie(name, value, days) {
+      const expires = new Date(Date.now() + days*24*60*60*1000).toUTCString();
+      document.cookie = name + "=" + value + "; expires=" + expires + "; path=/";
+    }
+
+    function getCookie(name) {
+      const value = "; " + document.cookie;
+      const parts = value.split("; " + name + "=");
+      if (parts.length === 2) return parts.pop().split(";").shift();
+    }
+
+    function acceptCookies() {
+      setCookie("cookieConsent", "accepted", 30);
+      document.getElementById("cookieBanner").style.display = "none";
+    }
+
+    window.onload = function() {
+      if (!getCookie("cookieConsent")) {
+        document.getElementById("cookieBanner").style.display = "block";
+      }
+    };
+  </script>
+
+</body>
+</html>
+
 
   <footer>
     <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
