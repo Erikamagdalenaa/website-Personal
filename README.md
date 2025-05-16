@@ -141,6 +141,39 @@
       </p>
     </section>
 
+<section class="featured">
+    <h2 class="section-title">Koleksi Terbaru</h2>
+    <div class="book-container">
+        <div class="book-card">
+            <img src="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1489732961i/1362193.jpg" alt="Buku 1" class="book-img">
+            <div class="book-info">
+                <h3 class="book-title">Laskar Pelangi</h3>
+                <p class="book-author">Oleh: Andrea Hirata</p>
+                <p class="book-desc">menceritakan kisah anak-anak dari keluarga miskin di Pulau Belitung yang bersekolah di SD Muhammadiyah, sebuah sekolah yang hampir ditutup karena kekurangan murid</p>
+                <a href="https://kalteng.kemenag.go.id/file/majalah/1613240554837.pdf" target=_blank" class="book-btn">Baca Detail</a>
+            </div>
+        </div>
+        <div class="book-card">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gramedia.com%2Fproducts%2Fbintang-1&psig=AOvVaw2Arf4x9c62cUryJNW7IDhz&ust=1747465889349000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLjRi_S3p40DFQAAAAAdAAAAABAM.jpg" alt="Buku 2" class="book-img">
+            <div class="book-info">
+                <h3 class="book-title">Bintangi</h3>
+                <p class="book-author">Oleh: Tere Liye</p>
+                <p class="book-desc">Menceritakan petualangan Raib, Seli, dan Ali yang berpetualang ke dunia paralel Klan Bintang untuk menyelamatkan pasak bumi dari ancaman Sekretaris Dewan Kota Klan Bintang.</p>
+                <a href="https://digilib.rsrivaiabdullah.id/assets/file/bintang_tere_liye.pdf" target=_blank" class="book-btn">Baca Detail</a>
+            </div>
+        </div>
+        <div class="book-card">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.gramedia.com%2Fproducts%2Fmatahari-1&psig=AOvVaw16BPvFpzvhlDZBH6kQ75gW&ust=1747466170136000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCRgvW4p40DFQAAAAAdAAAAABAE.jpg" alt="Buku 3" class="book-img">
+            <div class="book-info">
+                <h3 class="book-title">Matahari</h3>
+                <p class="book-author">Oleh: Tere Liye</p>
+                <p class="book-desc">Menceritakan tentang petualangan Raib, Seli, dan Ali setelah kematian Ily, sahabat mereka, di Klan Matahari. Mereka bertiga kemudian menjelajahi Klan Bintang, menghadapi berbagai rintangan dan tantangan, termasuk serangan makhluk aneh dan penangkapan oleh pasukan Klan Bintang.</p>
+                <a href="https://smksetiabudhirangkasbitung.sch.id/wp-content/uploads/2019/11/14.-Matahari.pdf" target=_blank" class="book-btn">Baca Detail</a>
+            </div>
+        </div>
+    </div>
+</section>
+
     <section class="mt-5">
       <h3 class="text-center mb-4">Event Terkini</h3>
       <div class="buku-container">
@@ -188,8 +221,8 @@
   font-family: 'Segoe UI', sans-serif;
 ">
   <p style="margin: 0 0 15px;">
-    <strong>Sebelum mulai, atur Cookies dulu ya 🍪</strong><br>
-    Cookies wajib agar situs ini berjalan dengan baik. 
+    <strong>Kami Menggunakan Cookies 🍪</strong><br>
+    Website ini Menggunakan Cookies agar situs ini berjalan dengan baik. 
     <br>
     <a href="#" style="color: #007bff; text-decoration: underline;">Kebijakan Cookies kami</a>
   </p>
