@@ -188,21 +188,21 @@
   font-family: 'Segoe UI', sans-serif;
 ">
   <p style="margin: 0 0 15px;">
-    <strong>Sebelum mulai, atur cookies dulu ya 🍪</strong><br>
+    <strong>Sebelum mulai, atur Cookies dulu ya 🍪</strong><br>
     Cookies wajib agar situs ini berjalan dengan baik. 
     <br>
-    <a href="#" style="color: #007bff; text-decoration: underline;">Kebijakan kuki kami</a>
+    <a href="#" style="color: #007bff; text-decoration: underline;">Kebijakan Cookies kami</a>
   </p>
   <div style="text-align: right;">
     <button onclick="setCookieConsent(true)" style="
       background-color: #ACE1AF;
-      color: white;
+      color: black;
       padding: 8px 15px;
       border: none;
       border-radius: 5px;
       margin-right: 10px;
       cursor: pointer;
-    ">Terima kuki</button>
+    ">Terima Cookies</button>
     <button onclick="setCookieConsent(false)" style="
       background-color: #e0e0e0;
       color: #333;
@@ -210,7 +210,7 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
-    ">Kelola cookies</button>
+    ">Kelola Cookies</button>
   </div>
 </div>
 
