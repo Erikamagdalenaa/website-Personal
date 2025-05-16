@@ -194,10 +194,6 @@
     Situs ini menggunakan cookies untuk meningkatkan pengalaman pengguna.
     <button onclick="acceptCookies()">Saya Setuju</button>
   </div>
-
-  <footer>
-    <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
-  </footer>
    <script>
     alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
 
