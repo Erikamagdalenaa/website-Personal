@@ -127,52 +127,6 @@
   </style>
 </head>
 <body>
-<!-- ... header, navbar, dan main tetap sama ... -->
-
-  <!-- COOKIE BANNER -->
-  <div id="cookieBanner">
-    Situs ini menggunakan cookies untuk meningkatkan pengalaman pengguna.
-    <button onclick="acceptCookies()">Saya Setuju</button>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
-  </footer>
-
-  <!-- ALERT + COOKIE SCRIPT -->
-  <script>
-    alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
-
-    function setCookie(name, value, days) {
-      const expires = new Date(Date.now() + days * 864e5).toUTCString();
-      document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
-    }
-
-    function getCookie(name) {
-      return document.cookie.split('; ').reduce((r, v) => {
-        const parts = v.split('=');
-        return parts[0] === name ? decodeURIComponent(parts[1]) : r
-      }, '');
-    }
-
-    function acceptCookies() {
-      setCookie('cookieConsent', 'accepted', 30);
-      document.getElementById('cookieBanner').style.display = 'none';
-    }
-
-    window.onload = function () {
-      if (!getCookie('cookieConsent')) {
-        document.getElementById('cookieBanner').style.display = 'block';
-      }
-    };
-  </script>
-</body>
-</html>
-
-  </style>
-</head>
-<body>
-
   <header>
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Logo_of_North_Sumatra_University.svg/800px-Logo_of_North_Sumatra_University.svg.png" alt="Logo Website" />
     <h1>Perpustakaan Erika Magdalena br Simarmata</h1>
@@ -236,7 +190,42 @@
       </div>
     </section>
   </main>
+<div id="cookieBanner">
+    Situs ini menggunakan cookies untuk meningkatkan pengalaman pengguna.
+    <button onclick="acceptCookies()">Saya Setuju</button>
+  </div>
 
+  <footer>
+    <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
+  </footer>
+   <script>
+    alert("Selamat Datang di Perpustakaan Erika Magdalena br Simarmata!");
+
+    function setCookie(name, value, days) {
+      const expires = new Date(Date.now() + days * 864e5).toUTCString();
+      document.cookie = name + '=' + encodeURIComponent(value) + '; expires=' + expires + '; path=/';
+    }
+
+    function getCookie(name) {
+      return document.cookie.split('; ').reduce((r, v) => {
+        const parts = v.split('=');
+        return parts[0] === name ? decodeURIComponent(parts[1]) : r
+      }, '');
+    }
+
+    function acceptCookies() {
+      setCookie('cookieConsent', 'accepted', 30);
+      document.getElementById('cookieBanner').style.display = 'none';
+    }
+
+    window.onload = function () {
+      if (!getCookie('cookieConsent')) {
+        document.getElementById('cookieBanner').style.display = 'block';
+      }
+    };
+  </script>
+</body>
+</html>
   <footer>
     <p>&copy; 2025 Perpustakaan Erika Magdalena br Simarmata</p>
   </footer>
